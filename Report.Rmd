@@ -1,5 +1,4 @@
-Title
-========================================================
+
 
 Histogram of steps per interval vs. frequency:
 ```{r}
@@ -74,3 +73,4 @@ allData<-rbind(weekendData, weekData)
 
 xyplot(steps~interval| day ,data=allData, layout=c(1,2), type="l")
 ```
+The levels during the week and weekend are very similair except they are slightly higher during the week.
